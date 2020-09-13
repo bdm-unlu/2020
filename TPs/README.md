@@ -6,14 +6,14 @@ A continuación, se presenta el __Cronograma de entrega__, el cual deberá ser r
 
 |    #   | TRABAJO PRÁCTICO                            |   ENTREGA  |
 |:------:|---------------------------------------------|:----------:|
-|  TP00  | Nociones de Estadística Descriptiva         |  23/9/2020 |
-|  TP01  | Procesos ETL                                |  30/9/2020 |
-|  TP02  | Preprocesamiento                            |  7/10/2020 |
+|  TP00  | Nociones de Estadística Descriptiva         | 23/09/2020 |
+|  TP01  | Procesos ETL                                | 30/09/2020 |
+|  TP02  | Preprocesamiento                            | 07/10/2020 |
 |  TP03  | Data Warehouse: Diseño e Imprementación     | 21/10/2020 |
 |  TP04  | Herramientas de Análisis (OLAP & Analytics) | 28/10/2020 |
 | TP0501 | Árboles de decisión                         | 11/11/2020 |
 | TP0502 | Clustering                                  | 18/11/2020 |
 | TP0503 | Reglas de Asociación                        | 25/11/2020 |
-| TP0504 | Aprendizaje Probabilístico (Bayes)          |  2/12/2020 |
+| TP0504 | Aprendizaje Probabilístico (Bayes)          | 02/12/2020 |
 
 Para una correcta incorporación de los conceptos asociados a los temas abordados en esta asignatura resulta muy importante la ejercitación; en función de ello es que determina la cantidad de trabajos y carga horaria utilizados para la práctica.
