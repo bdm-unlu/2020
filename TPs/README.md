@@ -16,4 +16,4 @@ A continuación, se presenta el __Cronograma de entrega__, el cual deberá ser r
 | TP0503 | Reglas de Asociación                        | 25/11/2020 |
 | TP0504 | Aprendizaje Probabilístico (Bayes)          | 02/12/2020 |
 
-Para una correcta incorporación de los conceptos asociados a los temas abordados en esta asignatura resulta muy importante la ejercitación; en función de ello es que determina la cantidad de trabajos y carga horaria utilizados para la práctica.
+Para una correcta incorporación de los conceptos asociados a los temas abordados en esta asignatura resulta muy importante la ejercitación; en función de ello se determina la cantidad de trabajos y carga horaria utilizados para la práctica.
