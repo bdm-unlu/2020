@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: bdm@bdm.com
+      PGADMIN_DEFAULT_PASSWORD: bdm
+    ports:
+      - "8080:80"
