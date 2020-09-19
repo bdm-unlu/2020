@@ -16,7 +16,7 @@ Al pgAdmin4 se accede desde: http://localhost:9090
 - USUARIO: bdm@bdm.com
 - CLAVE: bdm
 
-Para conectar la base de datos tanto desde el pgAdmin4 como desde Pentaho, se puede usar el host *pentaho_postgres*.
+Para conectar la base de datos tanto desde el pgAdmin4 como desde Pentaho, se debe usar el host *pentaho_postgres* y el puerto *5432*.
 
 ## Schema Workbench
 
