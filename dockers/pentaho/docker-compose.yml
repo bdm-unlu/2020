@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  pentaho:
+    image: dgraselli/pentaho-biserver:9.0
+    ports:
+      - "8080:8080"
+
+  pentaho_postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+  pentaho_pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: bdm@bdm.com
+      PGADMIN_DEFAULT_PASSWORD: bdm
+    ports:
+      - "9090:80"
