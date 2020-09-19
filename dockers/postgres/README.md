@@ -11,4 +11,4 @@ Al pgAdmin4 se accede desde: http://localhost:7070
 - USUARIO: bdm@bdm.com
 - CLAVE: bdm
 
-Para conectar la base de datos desde el pgAdmin4, se puede usar el host *db*.
+Para conectar la base de datos desde el pgAdmin4, se puede usar el host *db* y el puerto 5432.
