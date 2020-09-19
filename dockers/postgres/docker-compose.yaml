@@ -14,4 +14,4 @@ services:
       PGADMIN_DEFAULT_EMAIL: bdm@bdm.com
       PGADMIN_DEFAULT_PASSWORD: bdm
     ports:
-      - "8080:80"
+      - "7070:80"

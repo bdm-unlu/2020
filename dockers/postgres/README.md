@@ -6,7 +6,7 @@ Para levantar el entorno
 
 La base de datos queda en el puerto 5432.
 
-Al pgAdmin4 se accede desde: http://localhost:8080
+Al pgAdmin4 se accede desde: http://localhost:7070
 
 - USUARIO: bdm@bdm.com
 - CLAVE: bdm
