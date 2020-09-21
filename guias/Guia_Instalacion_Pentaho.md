@@ -2,13 +2,13 @@
 
 Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia empresarial (Business Intelligence) que emplearemos durante la materia. Utilizaremos la versión community, bajo licencia GPL.
 
-## INSTALACIÓN PASO A PASO:
+## Instalación paso a paso:
 1.	La Suite Pentaho corre sobre la plataforma Java por lo tanto nos debemos asegurar de tener instalado Java Development Kit (JDK) y Java Runtime Environment (JRE). JDK incluye JRE y herramientas adicionales para el desarrollo de applets y aplicaciones. En el caso de no tener instalado el JDK se recomienda verificar como hacerlo en [esta guía](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md).
 2.	Una vez que tenemos instalado JAVA y configuradas las variables de entorno, debemos ingresar a la sección de downloads del sitio web de Pentaho community a efectos de descargar el software: https://community.hitachivantara.com/. Pentaho es multiplataforma, con lo cual no tendremos que distinguir por Sistema Operativo al momento de realizar la descarga de los instaladores.
 3.	Una vez en el sitio web, descargaremos las siguientes herramientas:
-    - Business Analytics Platform,
-    - Data Integration: también conocida como Kettle,
-    - Schema Workbench.: también conocida como Mondrian.
+        - Business Analytics Platform,
+        - Data Integration: también conocida como Kettle,
+        - Schema Workbench.: también conocida como Mondrian.
 
 ### Instalación de Business Analytics Platform (Pentaho Server):
 1. Descomprimimos el archivo pentaho-server-ce-X.X.X.X-XXX.
@@ -18,9 +18,9 @@ Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia
 5. La posición relativa del archivo server.xml se encuentra en /pentaho-server/tomcat/conf. Debemos abrir el archivo, en caso de UNIX con un usuario con permisos de escritura, y modificamos el puerto en la línea:
       <Connector URIEncoding="UTF-8" port="9999" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />.
 6. Solo falta instalar uno de los Exploradores OLAP que provee Pentaho, en nuestro caso utilizaremos Saiku:
-  - Para ello, descargamos el plugin del Marketplace de Pentaho en https://www.pentaho.com/marketplace/.
-  - Luego, descomprimimos la carpeta dentro de la instalación de Pentaho en /pentaho-server/pentaho-solutions/system/.
-  - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en /pentaho-server/pentaho-solutions/system/Saiku.
+        - Para ello, descargamos el plugin del Marketplace de Pentaho en https://www.pentaho.com/marketplace/.
+        - Luego, descomprimimos la carpeta dentro de la instalación de Pentaho en /pentaho-server/pentaho-solutions/system/.
+        - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en /pentaho-server/pentaho-solutions/system/Saiku.
 
 ### Instalación de Schema Workbench (Mondrian):
 1.	Descomprimimos el archivo psw-ce-X.X.X.X-XXX.
