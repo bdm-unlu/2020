@@ -83,7 +83,7 @@ Como puede verse en la imagen anterior, además de la referencia a la transforma
 Asimismo, podemos ver otro concepto importante, la existencia de hops por la positiva (verdes) y hops por la negativa (rojos). Estos pueden entenderse como una bifurcación, siendo en este caso que cuando la _Transformation_ se haya ejecutado correctamente el flujo seguirá por el hop verde y terminará el proceso mientras que, cuando falle, el mismo ejecutará el hop rojo y enviará un correo al administrador.
 
 
-Hasta aquí un breve instructivo con la utilización de Pentaho Data Integration, los archivos de datos utilizados, así como la transformation y el job definidos podés descargarlo de [acá](https://github.com/jumafernandez/BDM/blob/master/Guias/utiles/Ejemplo-Proceso_ETL.zip).
+Hasta aquí un breve instructivo con la utilización de Pentaho Data Integration, los archivos de datos utilizados, así como la transformation y el job definidos podés descargarlo de [acá](https://github.com/bdm-unlu/2020/blob/master/guias/utiles/Ejemplo-Proceso_ETL.zip).
 
 ## Resumen
 
