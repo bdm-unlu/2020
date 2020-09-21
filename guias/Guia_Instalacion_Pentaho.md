@@ -3,7 +3,7 @@
 Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia empresarial (Business Intelligence) que emplearemos durante la materia. Utilizaremos la versión community, bajo licencia GPL.
 
 ## INSTALACIÓN PASO A PASO:
-1.	La Suite Pentaho corre sobre la plataforma Java por lo tanto nos debemos asegurar de tener instalado Java Development Kit (JDK) y Java Runtime Environment (JRE). JDK incluye JRE y herramientas adicionales para el desarrollo de applets y aplicaciones. En el caso de no tener instalado el JDK se recomienda verificar como hacerlo en la sección “Instalación y Configuración de Java Development Kit (JDK)” que se encuentra al final de la guía.
+1.	La Suite Pentaho corre sobre la plataforma Java por lo tanto nos debemos asegurar de tener instalado Java Development Kit (JDK) y Java Runtime Environment (JRE). JDK incluye JRE y herramientas adicionales para el desarrollo de applets y aplicaciones. En el caso de no tener instalado el JDK se recomienda verificar como hacerlo en [esta guía](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md).
 2.	Una vez que tenemos instalado JAVA y configuradas las variables de entorno, debemos ingresar a la sección de downloads del sitio web de Pentaho community a efectos de descargar el software: https://community.hitachivantara.com/. Pentaho es multiplataforma, con lo cual no tendremos que distinguir por Sistema Operativo al momento de realizar la descarga de los instaladores.
 3.	Una vez en el sitio web, descargaremos las siguientes herramientas:
     - Business Analytics Platform,
