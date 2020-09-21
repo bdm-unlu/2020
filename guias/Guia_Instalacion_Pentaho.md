@@ -3,12 +3,12 @@
 Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia empresarial (Business Intelligence) que emplearemos durante la materia. Utilizaremos la versión community, bajo licencia GPL.
 
 ## Instalación paso a paso:
-1.	La Suite Pentaho corre sobre la plataforma Java por lo tanto nos debemos asegurar de tener instalado Java Development Kit (JDK) y Java Runtime Environment (JRE). JDK incluye JRE y herramientas adicionales para el desarrollo de applets y aplicaciones. En el caso de no tener instalado el JDK se recomienda verificar como hacerlo en [esta guía](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md).
-2.	Una vez que tenemos instalado JAVA y configuradas las variables de entorno, debemos ingresar a la sección de downloads del sitio web de Pentaho community a efectos de descargar el software: https://community.hitachivantara.com/. Pentaho es multiplataforma, con lo cual no tendremos que distinguir por Sistema Operativo al momento de realizar la descarga de los instaladores.
-3.	Una vez en el sitio web, descargaremos las siguientes herramientas:
-        - Business Analytics Platform,
-        - Data Integration: también conocida como Kettle,
-        - Schema Workbench.: también conocida como Mondrian.
+1. La Suite Pentaho corre sobre la plataforma Java por lo tanto nos debemos asegurar de tener instalado Java Development Kit (JDK) y Java Runtime Environment (JRE). JDK incluye JRE y herramientas adicionales para el desarrollo de applets y aplicaciones. En el caso de no tener instalado el JDK se recomienda verificar como hacerlo en [esta guía](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md).
+2. Una vez que tenemos instalado JAVA y configuradas las variables de entorno, debemos ingresar a la sección de downloads del sitio web de Pentaho community a efectos de descargar el software: https://community.hitachivantara.com/. Pentaho es multiplataforma, con lo cual no tendremos que distinguir por Sistema Operativo al momento de realizar la descarga de los instaladores.
+3. Una vez en el sitio web, descargaremos las siguientes herramientas:
+   - Business Analytics Platform,
+   - Data Integration: también conocida como Kettle,
+   - Schema Workbench.: también conocida como Mondrian.
 
 ### Instalación de Business Analytics Platform (Pentaho Server):
 1. Descomprimimos el archivo pentaho-server-ce-X.X.X.X-XXX.
@@ -18,17 +18,17 @@ Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia
 5. La posición relativa del archivo server.xml se encuentra en /pentaho-server/tomcat/conf. Debemos abrir el archivo, en caso de UNIX con un usuario con permisos de escritura, y modificamos el puerto en la línea:
       <Connector URIEncoding="UTF-8" port="9999" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />.
 6. Solo falta instalar uno de los Exploradores OLAP que provee Pentaho, en nuestro caso utilizaremos Saiku:
-        - Para ello, descargamos el plugin del Marketplace de Pentaho en https://www.pentaho.com/marketplace/.
-        - Luego, descomprimimos la carpeta dentro de la instalación de Pentaho en /pentaho-server/pentaho-solutions/system/.
-        - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en /pentaho-server/pentaho-solutions/system/Saiku.
+   - Para ello, descargamos el plugin del Marketplace de Pentaho en https://www.pentaho.com/marketplace/.
+   - Luego, descomprimimos la carpeta dentro de la instalación de Pentaho en /pentaho-server/pentaho-solutions/system/.
+   - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en /pentaho-server/pentaho-solutions/system/Saiku.
 
 ### Instalación de Schema Workbench (Mondrian):
-1.	Descomprimimos el archivo psw-ce-X.X.X.X-XXX.
-2.	A continuación, aparecerá la carpeta schema-workbench.
-3.	Para ejecutar el software, ejecutamos el archivo workbench.sh (UNIX) o workbench.bat (Windows) que se encuentra en la carpeta raíz. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
-4.	En la cursada, vamos a trabajar con Mondrian interactuando con el SGBD PostgreSQL, para ello debemos descargar el driver del conector JDBC de la web de PostgreSQL, en https://jdbc.postgresql.org/, y guardarlo en la carpeta /schema-workbench/drivers/.
+1. Descomprimimos el archivo psw-ce-X.X.X.X-XXX.
+2. A continuación, aparecerá la carpeta schema-workbench.
+3. Para ejecutar el software, ejecutamos el archivo workbench.sh (UNIX) o workbench.bat (Windows) que se encuentra en la carpeta raíz. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
+4. En la cursada, vamos a trabajar con Mondrian interactuando con el SGBD PostgreSQL, para ello debemos descargar el driver del conector JDBC de la web de PostgreSQL, en https://jdbc.postgresql.org/, y guardarlo en la carpeta /schema-workbench/drivers/.
 
 ### Instalación de Pentaho Data Integration (PDI o Kettle):
-1.	Descomprimimos el archivo pdi-ce-X.X.X.X-XXX.
-2.	A continuación, aparecerá la carpeta data-integration.
-3.	Para iniciar PDI o Kettle, ejecutamos el archivo Spoon.sh (UNIX) o Spoon.bat (Windows) que se encuentra en la carpeta raíz. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
+1. Descomprimimos el archivo pdi-ce-X.X.X.X-XXX.
+2. A continuación, aparecerá la carpeta data-integration.
+3. Para iniciar PDI o Kettle, ejecutamos el archivo Spoon.sh (UNIX) o Spoon.bat (Windows) que se encuentra en la carpeta raíz. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
