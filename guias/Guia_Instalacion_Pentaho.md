@@ -11,16 +11,16 @@ Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia
    - Schema Workbench.: también conocida como Mondrian.
 
 ### Instalación de Business Analytics Platform (Pentaho Server):
-1. Descomprimimos el archivo pentaho-server-ce-X.X.X.X-XXX.
-2. A continuación, aparecerá la carpeta pentaho-server.
-3. En este momento podríamos iniciar Pentaho ejecutando el archivo start-pentaho.sh (UNIX) o start-pentaho.bat (Windows) y accederlo a través de un navegador mediante la URL: [localhost:8080/pentaho/](localhost:8080/pentaho/). En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
-4. No obstante, se podría modificar el puerto mediante 8080 por otro, por ejemplo el 9999. Esto se realiza editando el archivo server.xml.
-5. La posición relativa del archivo _server.xml_ se encuentra en _/pentaho-server/tomcat/conf_. Debemos abrir el archivo, en caso de UNIX con un usuario con permisos de escritura, y modificamos el puerto en la línea:
-      <Connector URIEncoding="UTF-8" port="9999" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />.
+1. Descomprimimos el archivo __pentaho-server-ce-X.X.X.X-XXX__.
+2. A continuación, aparecerá la carpeta _pentaho-server_.
+3. En este momento podríamos iniciar Pentaho ejecutando el archivo start-pentaho.sh (UNIX) o start-pentaho.bat (Windows) y accederlo a través de un navegador mediante la URL: [localhost:8080/pentaho/](http://localhost:8080/pentaho/). En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
+4. No obstante, se podría modificar el puerto mediante 8080 por otro, por ejemplo el 9999. Esto se realiza editando el archivo __server.xml__.
+5. La posición relativa del archivo __server.xml__ se encuentra en _/pentaho-server/tomcat/conf_. Debemos abrir el archivo, en caso de UNIX con un usuario con permisos de escritura, y modificamos el puerto en la línea:
+```<Connector URIEncoding="UTF-8" port="9999" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />```.
 6. Solo falta instalar uno de los Exploradores OLAP que provee Pentaho, en nuestro caso utilizaremos Saiku:
    - Para ello, descargamos el plugin del Marketplace de Pentaho en https://www.pentaho.com/marketplace/.
-   - Luego, descomprimimos la carpeta dentro de la instalación de Pentaho en /pentaho-server/pentaho-solutions/system/.
-   - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en /pentaho-server/pentaho-solutions/system/Saiku.
+   - Luego, descomprimimos la carpeta dentro de la instalación de Pentaho en _/pentaho-server/pentaho-solutions/system/_.
+   - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en _/pentaho-server/pentaho-solutions/system/Saiku_.
 
 ### Instalación de Schema Workbench (Mondrian):
 1. Descomprimimos el archivo psw-ce-X.X.X.X-XXX.
