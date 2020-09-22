@@ -13,9 +13,9 @@ Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia
 ### Instalación de Business Analytics Platform (Pentaho Server):
 1. Descomprimimos el archivo pentaho-server-ce-X.X.X.X-XXX.
 2. A continuación, aparecerá la carpeta pentaho-server.
-3. En este momento podríamos iniciar Pentaho ejecutando el archivo start-pentaho.sh (UNIX) o start-pentaho.bat (Windows) y accederlo a través de un navegador mediante la URL: localhost:8080/pentaho/. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
+3. En este momento podríamos iniciar Pentaho ejecutando el archivo start-pentaho.sh (UNIX) o start-pentaho.bat (Windows) y accederlo a través de un navegador mediante la URL: [localhost:8080/pentaho/](localhost:8080/pentaho/). En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
 4. No obstante, se podría modificar el puerto mediante 8080 por otro, por ejemplo el 9999. Esto se realiza editando el archivo server.xml.
-5. La posición relativa del archivo server.xml se encuentra en /pentaho-server/tomcat/conf. Debemos abrir el archivo, en caso de UNIX con un usuario con permisos de escritura, y modificamos el puerto en la línea:
+5. La posición relativa del archivo _server.xml_ se encuentra en _/pentaho-server/tomcat/conf_. Debemos abrir el archivo, en caso de UNIX con un usuario con permisos de escritura, y modificamos el puerto en la línea:
       <Connector URIEncoding="UTF-8" port="9999" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />.
 6. Solo falta instalar uno de los Exploradores OLAP que provee Pentaho, en nuestro caso utilizaremos Saiku:
    - Para ello, descargamos el plugin del Marketplace de Pentaho en https://www.pentaho.com/marketplace/.
