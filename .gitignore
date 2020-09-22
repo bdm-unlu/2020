@@ -1,3 +1,5 @@
 
 dockers/r/data/MPI_subnational.csv
 dockers/r/scripts/Resolución-LAB01.Rmd
+dockers/r/scripts/Resolución-LAB01.html
+dockers/r/scripts/comandos_slack.R
