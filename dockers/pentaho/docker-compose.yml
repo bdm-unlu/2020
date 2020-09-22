@@ -7,17 +7,18 @@ services:
     ports:
       - "8080:8080"
 
-  pentaho_postgres:
-    image: postgres
-    environment:
-      POSTGRES_PASSWORD: postgres
+  pentaho_mysql:
+    image: mysql:5.7
     ports:
-      - "5432:5432"
+     - '3306:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: bdm
 
-  pentaho_pgadmin:
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: bdm@bdm.com
-      PGADMIN_DEFAULT_PASSWORD: bdm
+  pentaho_phpmyadmin:
+    depends_on:
+      - pentaho_mysql
+    image: phpmyadmin/phpmyadmin
     ports:
-      - "9090:80"
+      - '6030:80'
+    environment:
+      PMA_HOST: pentaho_mysql
