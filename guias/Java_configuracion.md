@@ -5,21 +5,19 @@ A continuación se explica el paso a paso de la instalación de JDK, de acuerdo 
 ### Sistemas Unix
 
 1. Agregamos el repositorio para descargar Java8 de Oracle:<br />
-
-```sudo add-apt-repository ppa:webupd8team/java``` <br />
-```sudo apt-get update```
-
-2. Instalamos desde los repositorios agregados Java: 
-```sudo apt-get install oracle-java8-installer``` <br />  
-3. Definimos que por default se utilice Java 8:
-```sudo apt-get install oracle-java8-set-default ``` <br />  
-```sudo update-alternatives --config java ``` <br />   
+    ```sudo add-apt-repository ppa:webupd8team/java``` <br />
+    ```sudo apt-get update```
+2. Instalamos desde los repositorios agregados Java: <br />    
+    ```sudo apt-get install oracle-java8-installer``` <br />  
+3. Definimos que por default se utilice Java 8: <br />  
+    ```sudo apt-get install oracle-java8-set-default ``` <br />  
+    ```sudo update-alternatives --config java ``` <br />   
 4. Una vez descargados e instalados, debemos configurar la variable de entorno JAVA_HOME (Verificar el path donde se instaló JDK en esa máquina):
-    - Definimos la variable de entorno __$JAVA_HOME__:
-      ```sudo gedit /etc/environment``` <br />  
-      ```JAVA_HOME="/usr/lib/jvm/java-8-oracle"``` <br />        
-    - Volvemos a cargar el archivo environment para que tome los cambios:
-      ```source /etc/environment``` <br />     
+    - Definimos la variable de entorno __$JAVA_HOME__: <br />  
+          ```sudo gedit /etc/environment``` <br />  
+        ```JAVA_HOME="/usr/lib/jvm/java-8-oracle"``` <br />        
+    - Volvemos a cargar el archivo environment para que tome los cambios: <br />  
+        ```source /etc/environment``` <br />     
 
 ### Sistemas Windows
 
