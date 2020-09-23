@@ -37,8 +37,11 @@ https://sourceforge.net/projects/mondrian/files/schema%20workbench/3.14.0/
 Deben descargar PDI desde: https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511
 
 
-**jre necesario para ejecutar la Suite Pentaho**
+## Java Runtime Environment 
+
+Para ejecutar la Suite Pentaho es necesario tener instalado JRE
 
 ```sudo apt install default-jre```
+
 
 La guía de instalación completa de la Suite Pentaho está [aquí](https://github.com/bdm-unlu/2020/blob/master/guias/Guia_Instalacion_Pentaho.md).
