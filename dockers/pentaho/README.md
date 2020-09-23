@@ -32,16 +32,25 @@ Para publicar un cubo a Pentaho:
 
 https://sourceforge.net/projects/mondrian/files/schema%20workbench/3.14.0/
 
-## Pentaho Data Integration
+**JRE necesario**
 
-Deben descargar PDI desde: https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511
-
-
-## Java Runtime Environment 
-
-Para ejecutar la Suite Pentaho es necesario tener instalado JRE
+Para ejecutar el Schema Workbench es necesario tener instalado el JRE
 
 ```sudo apt install default-jre```
+
+## Pentaho Data Integration
+
+Para conectar la base de datos desde el PDI, el host es *127.0.0.1* y puerto *3306*.
+
+**Descarga Pentaho Data Integration**
+
+https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511
+
+**JDK necesario**
+
+Para ejecutar Pentaho Data Integration, es necesario instalar el JDK 8
+
+```sudo apt-get install openjdk-8-jdk```
 
 
 La guía de instalación completa de la Suite Pentaho está [aquí](https://github.com/bdm-unlu/2020/blob/master/guias/Guia_Instalacion_Pentaho.md).
