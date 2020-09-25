@@ -4,7 +4,8 @@ Para levantar el entorno
 
 ```docker-compose up```
 
-La base de datos queda en el puerto 5432.
+La base de datos queda en el puerto 5432 adentro del docker.
+Para acceder desde afuera, se debe utilizar el puerto 5470.
 
 Al pgAdmin4 se accede desde: http://localhost:7070
 
