@@ -6,6 +6,8 @@ services:
     image: postgres
     environment:
       POSTGRES_PASSWORD: postgres
+    ports:
+      - "5470:5432"
 
   pgadmin:
     container_name: pgadmin_container
