@@ -1,6 +1,6 @@
 ## Bases de datos Masivas 2020: Trabajos Prácticos
 
-Aquí se encuentran las presentaciones inherentes a los contenidos prácticos de la asignatura así como las consignas con la ejercitación.
+Aquí se encuentran las presentaciones inherentes a los contenidos prácticos de la asignatura así como las consignas con la ejercitación. A su vez, se irán compartiendo scripts con ejemplos, guías didácticas, tutoriales y otros recursos de interés para el desarrollo del curso.
 
 A continuación, se presenta el __Cronograma de entrega__, el cual deberá ser respetado para obtener la regularidad en la asignatura:
 
