@@ -1,5 +1,8 @@
 # Revisión TP00
 
+# Cargo dataframe
+MPI_subnational = read.csv('https://raw.githubusercontent.com/dmuba/dmuba.github.io/master/Practicos/LAB01/MPI_subnational.csv', header = TRUE, sep = ',')
+
 # Paleta de colores
 install.packages("RColorBrewer")
 library(RColorBrewer)
@@ -12,7 +15,6 @@ etiquetas = paste(names(valores), valores, sep=" ")
 pie(valores, 
     labels = etiquetas, main="Ciudades agrupadas por región",
     col=brewer.pal(6,"Set1"), border="white")
-
 
 x<-barplot(valores,
            legend.text=etiquetas, args.legend = list(bty = "n", 
