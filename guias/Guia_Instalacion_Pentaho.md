@@ -11,7 +11,7 @@ Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia
    - Schema Workbench.: también conocida como Mondrian.
 
 ### Instalación de Business Analytics Platform (Pentaho Server):
-1. Descomprimimos el archivo __pentaho-server-ce-X.X.X.X-XXX__.
+1. Descomprimimos el archivo __pentaho-server-ce-X.X.X.X-XXX.zip__.
 2. A continuación, aparecerá la carpeta _pentaho-server_.
 3. En este momento podríamos iniciar Pentaho ejecutando el archivo start-pentaho.sh (UNIX) o start-pentaho.bat (Windows) y accederlo a través de un navegador mediante la URL: [localhost:8080/pentaho/](http://localhost:8080/pentaho/). En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
 4. No obstante, se podría modificar el puerto mediante 8080 por otro, por ejemplo el 9999. Esto se realiza editando el archivo __server.xml__.
@@ -23,12 +23,12 @@ Pentaho BI Suite es un conjunto de aplicaciones libres para generar inteligencia
    - Por último, tendremos que gestionar una licencia educativa en la web del desarrollador de Saiku, en http://licensing.meteorite.bi/, la descargamos,  renombramos como license.lic y por último la dejamos en el raíz de Saiku en _/pentaho-server/pentaho-solutions/system/Saiku_.
 
 ### Instalación de Schema Workbench (Mondrian):
-1. Descomprimimos el archivo __psw-ce-X.X.X.X-XXX__.
+1. Descomprimimos el archivo __psw-ce-X.X.X.X-XXX.zip__.
 2. A continuación, aparecerá la carpeta _schema-workbench_.
 3. Para ejecutar el software, ejecutamos el archivo __workbench.sh__ (UNIX) o __workbench.bat__ (Windows) que se encuentra en la carpeta raíz. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
 4. En la cursada, vamos a trabajar con Mondrian interactuando con el SGBD PostgreSQL, para ello debemos descargar el driver del conector JDBC de la web de PostgreSQL, en https://jdbc.postgresql.org/, y guardarlo en la carpeta _/schema-workbench/drivers/_.
 
 ### Instalación de Pentaho Data Integration (PDI o Kettle):
-1. Descomprimimos el archivo __pdi-ce-X.X.X.X-XXX__.
+1. Descomprimimos el archivo __pdi-ce-X.X.X.X-XXX.zip__.
 2. A continuación, aparecerá la carpeta _data-integration_.
 3. Para iniciar PDI, ejecutamos el archivo __Spoon.sh__ (UNIX) o __Spoon.bat__ (Windows) que se encuentra en la carpeta raíz. En el caso de ambientes UNIX debemos cautelar que el archivo tenga permisos de ejecución para el usuario.
