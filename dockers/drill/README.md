@@ -55,5 +55,5 @@ Al pgAdmin4 se accede desde: http://localhost:6040
 El archivo debe ubicarse en la carpeta data que es la que se le comparte a drill
 
 ```
-SELECT * FROM dfs.`/data/ARCHIVO.json`
+SELECT * FROM dfs.`/data/paises.json`
 ```
