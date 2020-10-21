@@ -10,7 +10,7 @@ A continuación, se presenta el __Cronograma de entrega__, el cual deberá ser r
 |  TP01  | Procesos ETL                                | 30/09/2020 |
 |  TP02  | Preprocesamiento                            | 07/10/2020 |
 |  TP03  | Data Warehouse: Diseño e Imprementación     | 21/10/2020 |
-|  TP04  | Herramientas de Análisis (OLAP & Analytics) | 28/10/2020 |
+|  TP04  | Herramientas de Análisis (OLAP & Analytics) | 04/11/2020 |
 | TP0501 | Árboles de decisión                         | 11/11/2020 |
 | TP0502 | Clustering                                  | 18/11/2020 |
 | TP0503 | Reglas de Asociación                        | 25/11/2020 |
