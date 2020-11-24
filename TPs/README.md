@@ -14,6 +14,6 @@ A continuación, se presenta el __Cronograma de entrega__, el cual deberá ser r
 | TP0501 | Árboles de decisión                         | 11/11/2020 |
 | TP0502 | Clustering                                  | 18/11/2020 |
 | TP0503 | Reglas de Asociación                        | 25/11/2020 |
-| TP0504 | Aprendizaje Probabilístico (Bayes)          | 02/12/2020 |
+| TP06   | Frameworks de procesamiento masivo          | 07/12/2020 |
 
 Para una correcta incorporación de los conceptos asociados a los temas abordados en esta asignatura resulta muy importante la ejercitación; en función de ello se determina la cantidad de trabajos y carga horaria utilizados para la práctica.
