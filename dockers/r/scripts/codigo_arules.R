@@ -53,11 +53,15 @@ Petal.Length_d = discretize(iris$Petal.Length, method = "fixed", breaks = c(-Inf
 hist(iris_df$Petal.Width)
 Petal.Width_d = discretize(iris$Petal.Width, method = "fixed", breaks = c(-Inf, 1, 2.2, Inf), labels = c("pequeño", "mediano", "largo"))
 
-iris_discretizado = data.frame(Sepal.Length_d, Sepal.Width_d, Petal.Length_d, Petal.Width_d, iris_df$Species)
+iris_discretizado = data.frame(as.factor(Sepal.Length_d), 
+                               as.factor(Sepal.Width_d), 
+                               as.factor(Petal.Length_d), 
+                               as.factor(Petal.Width_d), 
+                               as.factor(iris_df$Species), )
+names(iris_discretizado) = c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width", "Species")
 View(iris_discretizado)
 
 # Lo transformo a transacciones
-iris_discretizado = as.data.frame(apply(iris_discretizado, 2, as.factor))
 iris_transacciones_dis <- as(iris_discretizado, "transactions")
 inspect(iris_transacciones_dis[1:10])
 
