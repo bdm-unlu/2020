@@ -4,15 +4,13 @@
 install.packages("arules", dependencies = TRUE)
 library(arules)
 
-
 ############### CARGA Y EXPLORACIÓN DE DATOS  #####################
-
 
 # Cargo en memoria el dataset Groceries (comestibles)
 data("Groceries")
 
 # Veo las transacciones
-inspect(Groceries[1:100])
+inspect(Groceries[1:10])
 
 # Levanto la paleta de colores de Brewer
 library(RColorBrewer) 
@@ -22,7 +20,6 @@ arules::itemFrequencyPlot(Groceries, topN = 20,
                           col = brewer.pal(8, 'Pastel2'), 
                           main = '% Soporte de los items', 
                           ylab = "Frecuencia del item (%)")
-
 
 ########## Generación de transacciones a partir de CSV o DF ###########
 
@@ -57,7 +54,7 @@ iris_discretizado = data.frame(as.factor(Sepal.Length_d),
                                as.factor(Sepal.Width_d), 
                                as.factor(Petal.Length_d), 
                                as.factor(Petal.Width_d), 
-                               as.factor(iris_df$Species), )
+                               as.factor(iris_df$Species))
 names(iris_discretizado) = c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width", "Species")
 View(iris_discretizado)
 
@@ -67,6 +64,8 @@ inspect(iris_transacciones_dis[1:10])
 
 rules_dis = apriori(iris_transacciones_dis, parameter=list(target="rules", confidence=0.1, support=0.1))
 inspect(rules_dis)
+
+inspect(head(sort(rules_dis, by="lift", decreasing = TRUE)))
 
 ############## GENERACIÓN DE REGLAS CON arules ###################
 
